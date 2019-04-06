@@ -1,3 +1,4 @@
+import 'package:flat_flutter/flat_drawer.dart';
 import 'package:flutter/material.dart';
 
 class FlatList extends StatelessWidget {
@@ -5,6 +6,7 @@ class FlatList extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
+      drawer: FlatDrawer(),
     );
   }
 }
