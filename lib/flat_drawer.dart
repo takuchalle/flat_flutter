@@ -12,6 +12,7 @@ class _FlatDrawerState extends State<FlatDrawer> {
       accountEmail: Text("User Email"),
       currentAccountPicture: CircleAvatar(
         backgroundColor: Colors.white,
+        backgroundImage: AssetImage('assets/images/avatar.jpg'),
       ),
     );
   }
@@ -20,7 +21,9 @@ class _FlatDrawerState extends State<FlatDrawer> {
   Widget build(BuildContext context) {
     return Drawer(
       child: Column(
-        children: <Widget>[_buildUserAccountsDrawerHeader()],
+        children: <Widget>[
+          _buildUserAccountsDrawerHeader(),
+        ],
       ),
     );
   }
