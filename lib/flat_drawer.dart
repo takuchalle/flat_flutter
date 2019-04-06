@@ -24,6 +24,7 @@ class _FlatDrawerState extends State<FlatDrawer> {
       decoration: BoxDecoration(
         color: const Color(0xff7c94b6),
       ),
+      child: Text("unko"),
     );
   }
 
